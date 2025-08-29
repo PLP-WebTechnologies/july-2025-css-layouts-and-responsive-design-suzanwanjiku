@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive CSS Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>My Responsive Webpage</h1>
+    <p>demonstration of Flexbox, Grid, and Responsive Design</p>
+  </header>
+
+ 
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+  <main class="container">
+  
+    <section class="content">
+      <h2>Programming Languages</h2>
+      <p>
+        This is the main area of the webpage. It uses <strong>CSS Grid</strong> to
+        structure the layout alongside the sidebar. Inside this section, a Flexbox
+        layout is applied to the cards below.
+      </p>
+
+   
+      <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">PYTHON</div>
+        <div class="card">CSS</div>
+      </div>
+    </section>
+
+  
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>
+        The sidebar sits beside the main content on desktop screens. On smaller
+        screens, it shifts below the content to maintain readability.
+      </p>
+    </aside>
+  </main>
+</body>
+</html>
